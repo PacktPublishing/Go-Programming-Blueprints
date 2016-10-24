@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meander - Random adventure</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+  <div class="loader">
+    <img src="loading.gif" />
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <div class="jumbotron">
+          <h1>Meander <small>Random adventure</small></h1>
+        </div>
+
+        <form role="form" id="meanderform">
+          <div class="form-group">
+            <label>I'm looking for </label>
+            <select id="journeys" class="form-control">
+              <option>Pick adventure type</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>In or near</label>
+            <input type="text" class="form-control" id="location" placeholder="Enter location or address">
+          </div>
+          <div class="form-group">
+            <label>Price</label>
+            <select id="price" class="form-control">
+              <option value="$...$$$$$">Anything</option>
+              <option value="$...$$$">Inexpensive</option>
+              <option value="$$$...$$$$$">Expensive</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary">Let's meander</button>
+        </form>
+
+        <div id="adventure" class="starts-hidden">
+          <button class="btn btn-link change-adventure">&lt; change adventure</button>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <a href="#" class="btn-link pull-right shuffle">Shuffle</a>
+              <h3 class="panel-title">Random adventure</h3>
+            </div>
+            <div class="panel-body">
+
+              <div class="row">
+                <div class="col-md-8">
+                  <div id="map"></div>
+                </div>
+                <div class="col-md-4">
+                  <ol id="route"></ol>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <ul id="photos"></ul>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="/app.js"></script>
+</body>
+</html>
