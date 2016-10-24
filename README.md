@@ -33,9 +33,9 @@ Software and Hardware List
 | 1 to 11  | Go 1.7            | Windows/Mac/Ubuntu     |
 
 ##Related Go Products:
-* [C# 6 and .NET Core 1.0: Modern Cross-Platform Development](https://www.packtpub.com/application-development/c-6-and-net-core-10?utm_source=github&utm_campaign=9781785285691&utm_medium=repository)
-* [Reactive Programming for .NET Developers](https://www.packtpub.com/web-development/reactive-programming-net-developers?utm_source=github&utm_campaign=9781785882883&utm_medium=repository)
-* [C# Programming Cookbook](https://www.packtpub.com/application-development/c-programming-cookbook?utm_source=github&utm_campaign=9781786467300&utm_medium=repositoryc)
+* [Go: Building Web Applications](https://www.packtpub.com/application-development/go-building-web-applications?utm_source=github&utm_campaign=9781787123496&utm_medium=repository)
+* [Go Programming Blueprints](https://www.packtpub.com/application-development/go-programming-blueprints?utm_source=github&utm_campaign=9781783988020&utm_medium=repository)
+* [Mastering Go Web Services](https://www.packtpub.com/web-development/mastering-go-web-services?utm_source=github&utm_campaign=9781783981304&utm_medium=repository)
 
 
 
