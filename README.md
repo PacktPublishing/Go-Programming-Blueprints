@@ -1,7 +1,9 @@
-#Go Programming Blueprints - Second Edition
+# Go Programming Blueprints - Second Edition
+
 This is the code repository for [Go Programming Blueprints - Second Edition](https://www.packtpub.com/application-development/go-programming-blueprints-second-edition?utm_source=github&utm_campaign=9781786468949&utm_medium=repository), published by Packt. It contains all the supporting project files necessary to work through the book from start to finish.
 
-##Instructions and Navigation
+## Instructions and Navigation
+
 All of the code is organized into folders. Each folder starts with number followed by the application name. For example, Chapter02.
 
 You will see code something similar to the following:
@@ -32,7 +34,8 @@ Software and Hardware List
 | -------- | ------------------| ------------           |
 | 1 to 11  | Go 1.7            | Windows/Mac/Ubuntu     |
 
-##Related Go Products:
+## Related Go Products:
+
 * [Go: Building Web Applications](https://www.packtpub.com/application-development/go-building-web-applications?utm_source=github&utm_campaign=9781787123496&utm_medium=repository)
 * [Go Programming Blueprints](https://www.packtpub.com/application-development/go-programming-blueprints?utm_source=github&utm_campaign=9781783988020&utm_medium=repository)
 * [Mastering Go Web Services](https://www.packtpub.com/web-development/mastering-go-web-services?utm_source=github&utm_campaign=9781783981304&utm_medium=repository)
